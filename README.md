@@ -128,11 +128,12 @@ Non-trainable params: 0
 ---
 
 ## Best Model Parameter
-- 모든 class(322종)에 대해 이미지 데이터 300개씩 증강한 데이터 (약 96600장)
-- EfficientV2 B0 
-- input size(224,224,3)
-- input~30 layer freeze (학습규제)
-- imagenet pretrained 가중치 사용
+- Mini Unet model
+- epoch 1000 
+- batch size 100
+- BatchNormalization 사용
+- adam 사용
+- SparseCategoricalCrossentropy 사용
 
 ## Best Model Result
 
